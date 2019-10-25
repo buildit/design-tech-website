@@ -1,0 +1,33 @@
+{
+  "name": "design-tech-website",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Website to promote the Designit + Buildit training course for design & tech collaboration",
+  "main": "index.js",
+  "scripts": {
+    "clean": "del dist/*",
+    "build": "gulp && eleventy",
+    "start": "gulp && gulp watch & eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buildit/design-tech-website.git"
+  },
+  "keywords": [
+    "website",
+    "html",
+    "css"
+  ],
+  "author": "Designit & Buildit",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/buildit/design-tech-website/issues"
+  },
+  "homepage": "https://github.com/buildit/design-tech-website#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.9.0",
+    "del-cli": "^3.0.0",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
