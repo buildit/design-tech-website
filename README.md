@@ -1,5 +1,9 @@
 # Design & Tech training course website
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4104bed4-bfa3-466d-855c-1d64a7575e26/deploy-status)](https://app.netlify.com/sites/design-tech-training/deploys)
+
 Website to promote the [Designit](https://www.designit.com/) + [Buildit](https://buildit.wiprodigital.com/) training course for design &amp; tech collaboration.
+
+Live URL is: https://design-tech-training.netlify.com/
 
 <!-- TOC depthfrom:2 -->
 
@@ -9,6 +13,7 @@ Website to promote the [Designit](https://www.designit.com/) + [Buildit](https:/
   - [Where the source code lives](#where-the-source-code-lives)
 - [Builds](#builds)
 - [Clean](#clean)
+- [Deployment](#deployment)
 
 <!-- /TOC -->
 
@@ -53,3 +58,6 @@ To nuke the build output from orbit run:
 ```sh
 npm run clean
 ```
+
+## Deployment
+We currently use a free [Netlify](https://www.netlify.com/) account to host this. Pushes to the `master` branch will trigger rebuilds and deployments.
