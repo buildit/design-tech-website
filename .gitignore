@@ -1,3 +1,6 @@
+# Build output
+dist/
+
 # Intermediate build output
 src/site/styles.css
 
